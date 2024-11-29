@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -10,10 +9,10 @@
 <body>
     <h1>Oclock</h1>
     <div id="menu">
-        <a href="chronometre.html">Chronomètre</a>
-        <a href="horloge.html">Horloge</a>
-        <a href="minuteur.html">Minuteur</a>
-        <a href="reveil.html">Réveil</a>
+        <a href="chronometre.php">Chronomètre</a>
+        <a href="horloge.php">Horloge</a>
+        <a href="minuteur.php">Minuteur</a>
+        <a href="reveil.php">Réveil</a>
     </div>
 </body>
 </html>
