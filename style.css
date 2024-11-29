@@ -1,0 +1,106 @@
+/* Style de base */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #333;
+    color: #1eb3d8;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Titre principal */
+h1 {
+    font-size: 3rem;
+    margin: 20px 0;
+}
+
+/* Conteneur du menu */
+#menu {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espace entre les boutons */
+    margin-top: 50px;
+}
+
+/* Liens du menu principal */
+#menu a {
+    padding: 15px 30px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #1eb3d8;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    transition: background-color 0.3s;
+}
+
+#menu a:hover {
+    background-color: #1eb3d8;
+}
+
+/* Style pour les boutons */
+button {
+    background-color: #1eb3d8;
+    color: #333;
+    border: none;
+    padding: 15px 30px;
+    margin: 10px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #1eb3d8;
+}
+
+/* Input fields */
+input[type="number"],
+input[type="time"],
+input[type="text"] {
+    padding: 10px;
+    font-size: 1.2rem;
+    width: 200px;
+    border: 2px solid #1eb3d8;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/* Temps affiché (Chrono, Horloge, etc.) */
+span {
+    display: block;
+    font-size: 4rem;
+    margin: 20px 0;
+}
+
+/* Liste des tours du chronomètre */
+#laps, #alarmsList {
+    list-style: none;
+    padding: 0;
+}
+
+#laps li, #alarmsList li {
+    background-color: #444;
+    color:#1eb3d8;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+/* Lien de retour au menu */
+a {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #1eb3d8;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+a:hover {
+    background-color: #1eb3d8;
+}
+
